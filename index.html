@@ -10,11 +10,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+	<div id="nav-links">
+	    <a href="./index.html">[h] home</a>
+	    <a href="./blog.html">[b] blog</a>
+	    <a href="./projects.html">[p] projects</a>
+	    <a href="./photos.html">[f] photos</a>
+	</div>
+    </nav>
     <header>
         <h1>Matt Nickolaus</h1>
     </header>
     <main>
         <section id="intro">
+	    <div class="location">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-4 h-4">
+		<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+		<circle cx="12" cy="10" r="3"></circle>
+		</svg>
+		Philadelphia, PA
+	    </div>
             <p>
                 Hi, I'm Matt. I'm a software engineer who loves building things for the web. I'm passionate about open source, design, and creating beautiful and user-friendly experiences.
             </p>
@@ -38,7 +53,7 @@
                     <p class="description">A brief description of Project 3, highlighting its purpose and your contribution.</p>
                 </li>
             </ul>
-            <a href="/projects">All projects &rarr;</a>
+            <a href="./projects.html">All projects &rarr;</a>
         </section>
         <section id="blog">
             <h2>Blog</h2>
@@ -47,7 +62,7 @@
                 <li><a href="#">Latest Post 2</a> <span class="date">September 15, 2025</span></li>
                 <li><a href="#">Latest Post 3</a> <span class="date">August 01, 2025</span></li>
             </ul>
-            <a href="/blog">All posts &rarr;</a>
+            <a href="./blog.html">All posts &rarr;</a>
         </section>
         <section id="photos">
             <h2>Photos</h2>
@@ -56,13 +71,13 @@
                 <img src="https://images.squarespace-cdn.com/content/v1/634723977fd6041c2f4c7c59/19573ec5-315a-4db3-a0c0-1d024b94e0cf/Willem_Verbeeck_13.jpg" alt="placeholder image">
                 <img src="https://images.squarespace-cdn.com/content/v1/634723977fd6041c2f4c7c59/19573ec5-315a-4db3-a0c0-1d024b94e0cf/Willem_Verbeeck_13.jpg" alt="placeholder image">
             </div>
-            <a href="/photos">All photos &rarr;</a>
+            <a href="./photos.html">All photos &rarr;</a>
         </section>
         <section id="links">
             <h2>Links</h2>
             <ul>
-                <li><a href="https://github.com/mattnickolaus">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/mattnickolaus/">LinkedIn</a></li>
+                <li><a target="_blank" href="https://github.com/mattnickolaus">GitHub</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/matt-nickolaus-96842618a/">LinkedIn</a></li>
             </ul>
         </section>
     </main>
