@@ -3,51 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects - mattnickolaus.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+		<link rel="icon" href="matt-favicon.png" type="image/x-icon">
+		<script src="./js/nav-keys.js"></script>
 </head>
 <body>
     <nav>
 	<div id="nav-links">
-	    <a href="./index.html">[h] home</a>
+	    <a href="/">[h] home</a>
+	    <a href="./projects.html" id="nav-current">[p] projects</a>
 	    <a href="./blog.html">[b] blog</a>
-	    <a href="./projects.html">[p] projects</a>
 	    <a href="./photos.html">[f] photos</a>
 	</div>
     </nav>
     <header>
-        <h1>Matt Nickolaus</h1>
+        <h1>Projects</h1>
+				<p>Here are some of the projects that I have worked on.</p>
     </header>
     <main>
         <section id="projects">
-            <h2>Projects</h2>
             <ul>
-                <li>
-                    <a href="#">Project 1</a>
-                    <p class="role">Creator</p>
-                    <p class="description">A brief description of Project 1, highlighting its purpose and your contribution.</p>
+                <li class="proj-container">
+                    <a a target="_blank" href="https://github.com/mattnickolaus/gator">Gator</a>
+                    <p class="role">Creator (Oct 2025)</p>
+                    <p class="description">A CLI RSS aggregator written in Go.</p>
+										<p class="proj-labels">Technologies</p>
+										<div class="technologies">
+												<span>Go</span>
+												<span>PostgreSQL</span>
+												<span>sqlc</span>
+												<span>goose</span>
+										</div>
+
                 </li>
-                <li>
-                    <a href="#">Project 2</a>
+                <li class="proj-container">
+                    <a target="_blank" href="https://github.com/mattnickolaus/snippetbox">Snippet Box</a>
+                    <p class="role">Learner (Jul - Sep 2025)</p>
+                    <p class="description">An application which lets people paste and share snippets of text, a bit like Pastebin or GitHub’s Gists. Built as a part of Let's Go by Alex Edwards, a fantistic guide to learn how to create fast, secure and maintainable web applications using the fantastic programming language Go!</p>
+										<p class="proj-labels">Technologies</p>
+										<div class="technologies">
+												<span>Go</span>
+												<span>MySQL</span>
+												<span>RESTful APIs</span>
+												<span>alice</span>
+										</div>
+                </li>
+                <li class="proj-container">
+                    <a a target="_blank" href="https://github.com/mattnickolaus/chipboy">Chipboy</a>
+                    <p class="role">Creator (May 2025 - present)</p>
+										<p class="description">Terminal-based chiptune composer inspired by Little Sound DJ (LSDJ). Currently rewriting in Go using the <a target="_blank" href="https://github.com/gopxl/beep?tab=readme-ov-file">beep</a> library for sample generation and the TUI interface in <a target="_blank" href="https://github.com/charmbracelet/bubbletea">Bubble Tea</a> and <a target="_blank" href="https://github.com/charmbracelet/lipgloss">Lip gloss</a> libraries</p>
+										<p class="proj-labels">Technologies</p>
+										<div class="technologies">
+												<span>Go</span>
+												<span>beep</span>
+												<span>Bubble Tea</span>
+												<span>Lip Gloss</span>
+												<span>Python</span>
+												<span>textual</span>
+										</div>
+                </li>
+                <li class="proj-container">
+                    <a a target="_blank" href="#">More Projects 1</a>
                     <p class="role">Contributor</p>
                     <p class="description">A brief description of Project 2, highlighting its purpose and your contribution.</p>
+										<p class="proj-labels">Technologies</p>
+										<div class="technologies">
+												<span>insert tech here</span>
+										</div>
                 </li>
-                <li>
-                    <a href="#">Project 3</a>
+                <li class="proj-container">
+                    <a a target="_blank" href="#">More Projects 1</a>
                     <p class="role">Creator</p>
                     <p class="description">A brief description of Project 3, highlighting its purpose and your contribution.</p>
+										<p class="proj-labels">Technologies</p>
+										<div class="technologies">
+												<span>insert tech here</span>
+										</div>
                 </li>
             </ul>
-            <a href="/projects">All projects &rarr;</a>
         </section>
         <section id="links">
             <h2>Links</h2>
             <ul>
                 <li><a target="_blank" href="https://github.com/mattnickolaus">GitHub</a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/matt-nickolaus-96842618a/">LinkedIn</a></li>
+                <li><a target="_blank" href="mailto:mattnickolaus@gmail.com">Email</a></li>
             </ul>
         </section>
     </main>
