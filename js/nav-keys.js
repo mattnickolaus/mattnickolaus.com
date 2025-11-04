@@ -2,7 +2,7 @@
 document.addEventListener('keydown', function(event) {
   if (event.key === 'h') {
     event.preventDefault(); 
-    window.location.href = '.././'; 
+    window.location.href = '../'; 
   }
   else if (event.key === 'b') {
     event.preventDefault();
